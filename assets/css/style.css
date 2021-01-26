@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.navbar {
+    background: rgb(52, 146, 225);
+}
+
+.banner {
+    background: url('../img/banner-bg.png')center;
+    background-size: cover;
+    height: auto;
+}
+
+.banner h1 {
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.banner p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h3.display-4 {
+    font-size: 70px;
+}
+
+.bttnn .btt {
+    background: transparent;
+    color: honeydew;
+}
+
+.counts1,
+.counts2 {
+    padding: 80px 0px;
+    font-size: 20px;
+}
+
+.page-example .nav-pills li a {
+    border-radius: 90px;
+}
+
+.nav .nav-link {
+    padding: 10px 25px;
+}
+
+.card img {
+    /* width: 355px; */
+    /* height: 460px; */
+    /* padding: 30px; */
+    background-color: rgb(224, 224, 224);
+}
+
+#preview .card {
+    transition: all ease 0.4s;
+    cursor: pointer;
+    box-shadow: 0 1px 3px 1spx !important;
+}
+
+.card {
+    margin: 12px 5px;
+}
+
+.card h5 {
+    font-size: 22px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.card:hover {
+    transform: translatey(-20px);
+}
+
+.section-ab {
+    background: rgb(0, 0, 0);
+}
+
+.section-ab h2 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.section-ab h2 span {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.section-ab .btn {
+    color: white;
+    background: #3B2293;
+    padding: 15px 45px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.a1,
+.a2 {
+    color: white;
+    padding-left: 10px;
+}
+
+.social-icons i.fa {
+    padding: 7px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.social-icons.fa:hover {
+    color: aqua;
+}
+
+@media(max-width:768px) {
+    .banner {
+        height: 60vh !important;
+        width: 100%;
+    }
+}
+
+@media(max-width:640px) {
+    .page-example .nav-pills {
+        margin-left: 25px;
+    }
+    .section-ab h2 {
+        font-size: 35px;
+    }
+    .tu {
+        padding-bottom: 20px;
+    }
+    .logo {
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width:540px) {
+    .section-ab h2 {
+        font-size: 30px;
+    }
+    .section-ab h2 span {
+        font-size: 33px;
+    }
+}
+
+@media(max-width:420px) {
+    .banner p {
+        font-size: 17px;
+    }
+    .page-example.pb-5 {
+        padding-bottom: 90px;
+    }
+    .nav .nav-link {
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:360px) {
+    .banner h1 {
+        font-size: 35px;
+    }
+    h3.display-4 {
+        font-size: 45px;
+    }
+    .counts1,
+    .counts2 {
+        padding: 50px 0;
+    }
+    .counts1,
+    .counts2 p {
+        font-size: 17px;
+    }
+    .section-ab h2 {
+        font-size: 25px;
+    }
+    .section-ab .btn {
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+    .page-example .nav-pills {
+        margin-left: 45px;
+    }
+    .page-example .nav-link {
+        font-size: 10px;
+        padding: 7px 12px;
+    }
+    .card h5 {
+        font-size: 20px;
+    }
+    .tu {
+        font-size: 10px;
+    }
+    .social-icons {
+        font-size: 1px;
+    }
+}
